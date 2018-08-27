@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Fri, 17 Aug 2018 04:28:38 +0000
+Source: nextepc
+Binary: nextepc-core nextepc-mme nextepc-sgw nextepc-pgw nextepc-pcrf nextepc-hss nextepc
+Architecture: source amd64
+Version: 0.3.10~xenial
+Distribution: xenial
+Urgency: medium
+Maintainer: Harald Welte <laforge@gnumonks.org>
+Changed-By: Sukchan Lee <acetcom@gmail.com>
+Description:
+ nextepc    - Open Source based 3GPP EPC (metapackage)
+ nextepc-core - Open Source based 3GPP EPC (Shared Files)
+ nextepc-hss - Open Source based 3GPP EPC HSS (Home Subscriber Server)
+ nextepc-mme - Open Source based 3GPP EPC MME (Mobility Management Entity)
+ nextepc-pcrf - Open Source based 3GPP EPC PCRF (Policy and Charging Rules Functi
+ nextepc-pgw - Open Source based 3GPP EPC PGW (Packet Data Network Gateway)
+ nextepc-sgw - Open Source based 3GPP EPC SGW (Serving Gateway)
+Changes:
+ nextepc (0.3.10~xenial) xenial; urgency=medium
+ .
+   * Bug Fixed
+Checksums-Sha1:
+ 95921fa52dd82ca32d29ac788c0a3d0c9ba370a0 1162 nextepc_0.3.10~xenial.dsc
+ dab150eb6c652b969bcc5b2336abcc060066674f 2789056 nextepc_0.3.10~xenial.tar.xz
+ 36114a36df6a031f939d31745870bc63febccfa7 690802 nextepc-core_0.3.10~xenial_amd64.deb
+ 5c6c6d64452de5841f2e3c784400afd41059de34 33632 nextepc-hss_0.3.10~xenial_amd64.deb
+ f76cd49df29adf7cef41e4798ff234e4303d0277 115126 nextepc-mme_0.3.10~xenial_amd64.deb
+ 99b612be7523e7ca37e1ff6a27e5637f33ff319f 41282 nextepc-pcrf_0.3.10~xenial_amd64.deb
+ 5aff38e6bfed7cc3bac55fa65915400f8112f3be 55414 nextepc-pgw_0.3.10~xenial_amd64.deb
+ b7ed6e7fc1b5e25b1b32247e94975185359761e7 33826 nextepc-sgw_0.3.10~xenial_amd64.deb
+ 41e36e1664946b6ac0bf50d4982c360029d6eb5f 3420 nextepc_0.3.10~xenial_amd64.deb
+Checksums-Sha256:
+ c4e2dd6ace8f59ad3d087babeb5826011a7a6bf2cd2a84c978b4027fa0dd21f6 1162 nextepc_0.3.10~xenial.dsc
+ 651b96c107418b6b9e384424c1abbc676f13b788ef1b9ebb5f23c9a50578811f 2789056 nextepc_0.3.10~xenial.tar.xz
+ 980d88cc73a1e1069b96979f17eb51691a65c8c2635325d3acabd12b80111ba5 690802 nextepc-core_0.3.10~xenial_amd64.deb
+ b9f43b1470cd3eba1cbcab46bb29f37a434df81643beb4fa5c3a3dbd1978b9a9 33632 nextepc-hss_0.3.10~xenial_amd64.deb
+ deb87782eae30fe05eaf49393e1bd685edf8b5e2227b12c958e0d26639b99e29 115126 nextepc-mme_0.3.10~xenial_amd64.deb
+ 5014abf23ed3d87651e3c55ce62556169aa334969b1d3a98738b6d65bd1eb4b2 41282 nextepc-pcrf_0.3.10~xenial_amd64.deb
+ a3c7038eb548e571929151367746cff2fb78d0a27de00390117a3198618fc21e 55414 nextepc-pgw_0.3.10~xenial_amd64.deb
+ fbaab28c02b0fc4e8bc12b1a4fceb92a35610591ac5cc992ca7bf1b754ec7f3f 33826 nextepc-sgw_0.3.10~xenial_amd64.deb
+ e1a32329d2ead69da6fe46f4d1ed7f7cdd55b49a8d92b8c0e8f3d0eef089ef5e 3420 nextepc_0.3.10~xenial_amd64.deb
+Files:
+ 346d5ec15c0a9276a773bc61533e0af2 1162 net optional nextepc_0.3.10~xenial.dsc
+ 63d43821bd5926937fab6281b5b482b5 2789056 net optional nextepc_0.3.10~xenial.tar.xz
+ 2c01b6391b15cae879da596354f5224b 690802 net optional nextepc-core_0.3.10~xenial_amd64.deb
+ 60864057fe7844c732769a749a1cc357 33632 net optional nextepc-hss_0.3.10~xenial_amd64.deb
+ d8567c99abbd7e843fe5a5402054471b 115126 net optional nextepc-mme_0.3.10~xenial_amd64.deb
+ d510d3f79d6452aea2e62899d08db884 41282 net optional nextepc-pcrf_0.3.10~xenial_amd64.deb
+ 371e60dd9677a18efad639c8f00e13c1 55414 net optional nextepc-pgw_0.3.10~xenial_amd64.deb
+ a35fa0fad1ad086ec369de938adf490a 33826 net optional nextepc-sgw_0.3.10~xenial_amd64.deb
+ 9fbc1d99416fa330ba218607b84698fe 3420 net optional nextepc_0.3.10~xenial_amd64.deb
